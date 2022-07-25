@@ -40,3 +40,19 @@ function operate(operator, a,b) {
             return null
     }
 }
+
+
+
+const numberButtons = document.querySelectorAll('.numbers');
+const operatorButtons = document.querySelectorAll('.operators');
+const clearButton = document.querySelector('.clear');
+const equalButton = document.querySelector('.equal');
+
+numberButtons.forEach((button) =>
+    button.addEventListener('click')
+
+)
+
+operatorButtons.forEach((button) =>
+    button.addEventListener('click')
+)
