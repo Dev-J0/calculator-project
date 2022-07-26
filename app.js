@@ -41,6 +41,9 @@ function operate(operator, a,b) {
     }
 }
 
+ clear() {
+    this.
+ }
 
 
 const numberButtons = document.querySelectorAll('.numbers');
